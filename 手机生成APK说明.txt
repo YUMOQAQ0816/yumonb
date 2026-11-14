@@ -1,0 +1,11 @@
+雨墨QAQ APK 云端构建说明（无需本地电脑）
+
+1. 在 GitHub 注册/登录账号。
+2. 新建一个 Repository（仓库），名称可填 YuMoQAQ。
+3. 将本压缩包内所有文件上传到仓库根目录（包括 .github 文件夹）。
+4. 打开仓库的 Actions 页面，选择 “Build 雨墨QAQ APK”。
+5. 点击 Run workflow，等待构建完成。
+6. 在完成的工作流页面底部 Artifacts 中下载 “雨墨QAQ-debug-apk”。
+7. 解压后得到 app-debug.apk，在安卓手机上打开安装。
+
+说明：这是 Debug 测试安装包，不是正式发布签名包。首次安装时，安卓系统可能要求允许该来源安装应用。
